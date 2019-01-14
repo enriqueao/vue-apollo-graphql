@@ -7,12 +7,12 @@
         </div>
     </nav>
     <div class="container-fluid" style="heigth: 70%">
-        <div class="row justify-content-md-center">
-            <div class="input-group mb-3 col-6 align-items-center" style="margin-top: 40px">
+        <div class="row justify-content-center">
+            <div class="input-group mb-3 col-sm-12 col-md-6 col-lg-6 align-items-center" style="margin-top: 40px">
                 <input @input="search" v-model="description" placeholder="Busca un Producto" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
             </div>
         </div>
-        <div class="row justify-content-md-center">
+        <div class="row justify-content-center">
             <div v-if="loading" class="d-flex align-items-center">
                 <strong>Buscando... </strong>
                 <div class="spinner-border" role="status" aria-hidden="true"></div>
@@ -22,7 +22,7 @@
             </div>
         </div>
         <div v-if="!loading" class="row">
-            <div v-for="item in product" v-bind:key="item._id" class="col-md-2 col-sm-3 col-6 col-lg-2" style="margin-top: 20px">
+            <div v-for="item in product" v-bind:key="item._id" class="col-md-2 col-sm-6 col-12 col-lg-3" style="margin-top: 20px">
                 <div class="card">
                     <img :src="item.pic" class="card-img-top" :alt="item.upc">
                     <div class="card-body">
