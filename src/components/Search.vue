@@ -22,7 +22,7 @@
             </div>
         </div>
         <div v-if="!loading" class="row">
-            <div v-for="item in product" v-bind:key="item._id" class="col-md-2 col-sm-6 col-12 col-lg-3" style="margin-top: 20px">
+            <div v-for="item in product" v-bind:key="item._id" class="col-md-2 col-sm-6 col-12 col-lg-2" style="margin-top: 20px">
                 <div class="card">
                     <img :src="item.pic" class="card-img-top" :alt="item.upc">
                     <div class="card-body">
