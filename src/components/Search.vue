@@ -37,7 +37,7 @@
             </div>
         </div>
     </div>
-    <footer class="page-footer font-small bg-dark">
+    <footer class="page-footer font-small bg-dark d-none d-sm-none">
         <div class="footer-copyright text-center py-3 text-white">© 2018 Copyright:
             <a href="https://github.com/enriqueao">Enrique Aguilar</a>
         </div>
