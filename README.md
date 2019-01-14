@@ -1,5 +1,10 @@
-# searchitem
+# SearchMarket
 
+![](https://img.shields.io/badge/version-1.0.5-green.svg) ![](https://img.shields.io/badge/fecha-enero_2019-blue.svg) ![](https://img.shields.io/badge/Node-8.11.2-green.svg) ![](https://img.shields.io/badge/VueCli-3.0.0-red.svg) ![](https://img.shields.io/badge/vue_apollo-3.0.0-yellow.svg)
+
+
+Proyecto de prueba utlizando un conjunto de tecnologias para la consulta de productos de supermercado
+***
 > It's a demo project with GraphQL
 
 ## Build Setup
